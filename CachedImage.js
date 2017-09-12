@@ -41,7 +41,7 @@ function getImageProps(props) {
 const CACHED_IMAGE_REF = 'cachedImage';
 
 const CachedImage = React.createClass({
-    propTypes: {
+    PropTypes: {
         renderImage: PropTypes.func.isRequired,
         activityIndicatorProps: PropTypes.object.isRequired,
         useQueryParamsInCacheKey: PropTypes.oneOfType([
